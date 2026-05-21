@@ -7,6 +7,10 @@
     font-family: "Ubuntu", sans-serif;
 }
 
+body {
+    background-color: #e6e1e1;
+}
+
 .firstbanner {
     width: 100%;
     height: 56px;
@@ -104,4 +108,39 @@
 #black-hover:hover .fa-star {
     background-color: #F68B1E;
     color: white;
+}
+
+.boxset {
+    width: 100%;
+    height: 72px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.link-box{
+    width: 70%;
+    height: 97%;
+    background-color: #009AFF;
+
+}
+
+
+#bigman{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+#bigman .fa-star {
+   font-size: 0.9rem;
+   padding: 0.3rem;
+   background-color: #F68B1E;
+   color: white;
+   border-radius: 100%;
 }
