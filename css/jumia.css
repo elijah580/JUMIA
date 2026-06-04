@@ -113,7 +113,7 @@ body {
 .boxset {
     width: 100%;
     height: 72px;
-    background-color:white;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -121,7 +121,7 @@ body {
 
 
 
-.link-box{
+.link-box {
     width: 70%;
     height: 97%;
     /* background-color: #009AFF; */
@@ -133,7 +133,7 @@ body {
 }
 
 
-#bigman{
+#bigman {
     display: flex;
     align-items: center;
     font-size: 2rem;
@@ -142,14 +142,14 @@ body {
 
 
 #bigman .fa-star {
-   font-size: 0.9rem;
-   padding: 0.3rem;
-   background-color: #F68B1E;
-   color: white;
-   border-radius: 100%;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    background-color: #F68B1E;
+    color: white;
+    border-radius: 100%;
 }
 
-.search-box{
+.search-box {
     width: 60%;
     height: 80%;
     background-color: #F1F1F2;
@@ -157,15 +157,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left:0.8rem ;
+    padding-left: 0.8rem;
     padding-right: 0.3rem;
+    transition: .2s;
 }
 
-,.search-box i {
+.search-box .fa-magnifying-glass {
     font-size: 1.2rem;
+    transition: .4s;
 }
 
-.search-box input{
+.search-box input {
     width: 80%;
     height: 80%;
     border: none;
@@ -174,7 +176,7 @@ body {
     font-size: 1.2rem;
 }
 
-.search-box button{
+.search-box button {
     width: 12%;
     height: 80%;
     border-radius: inherit;
@@ -184,23 +186,46 @@ body {
 
 }
 
-.link-inbox{
+.search-box:hover {
+    border: 1px solid #FE9900;
+    background-color: white;
+}
+
+/* .search-box .fa-magnifying-glass:hover {
+    font-size: 2.0rem;
+    color: #F68B1E;
+
+} */
+
+.search-box:hover .fa-magnifying-glass{
+    color: #F68B1E;
+    rotate: 360deg;
+}
+
+.search-box:hover button{
+    background-color: #f3800d;
+    cursor: pointer;
+}
+
+
+.link-inbox {
     width: 37%;
     height: 80%;
-    /* background-color: plum; */
-    /* align-content: center;
-    text-align: center;
-    word-spacing: 70px;
-    font-size: larger; */
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.link-box span{
+.link-inbox span {
     font-size: large;
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 0.6rem;
+    color: #4D4D4F;
+}
+
+.link-box span:hover {
+    color: #FE9900;
+    cursor: pointer;
 }
