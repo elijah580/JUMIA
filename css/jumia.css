@@ -281,6 +281,11 @@ body {
     background-image: url(../img/JFORCE-2.gif);
 }
 
-.tid{
-    background-image: url(../img/);
+.smallestbox span{
+    display: flex;
+    background-color: white;
+    justify-self: center;
+    flex-direction: row;
+    
+    
 }
